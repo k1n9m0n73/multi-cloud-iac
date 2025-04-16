@@ -1,0 +1,20 @@
+# Terraform directories and state files
+.terraform/
+*.tfstate
+*.tfstate.backup
+
+# Terraform variable files (often contain secrets)
+*.tfvars
+*.tfvars.json
+.terraform.lock.hcl
+
+# Crash logs and debug output
+crash.log
+*.tfplan
+
+# IDE or system-specific files (optional but useful)
+.vscode/
+.idea/
+.DS_Store
+*.swp
+
